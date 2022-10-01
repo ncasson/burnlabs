@@ -42,10 +42,10 @@ a:hover {
   @include supportColorForIE11();
 
   // Responsive text purple style
-  /*@include respond(phone) {
+  @include respond(phone) {
     background-image: none;
-    -webkit-text-fill-color: $primary-color;
-  }*/
+    //-webkit-text-fill-color: $primary-color;
+  }
 
   &:hover {
     transform: translateX(2px);
