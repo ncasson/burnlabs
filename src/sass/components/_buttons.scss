@@ -53,6 +53,8 @@
       $primary-color 0%,
       $secondary-color 100%
     );
+    
+    border: 0;
 
     @include respond(phone) {
       background-image: none;
