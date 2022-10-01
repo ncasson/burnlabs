@@ -23,7 +23,8 @@
 
 /* Hero Style */
 .cta-btn--hero {
-  @include supportColorForIE11();
+  /* @include supportColorForIE11(); */
+  color: $primary-color;
   border: 2px solid transparent;
   border-image: linear-gradient(
     135deg,
