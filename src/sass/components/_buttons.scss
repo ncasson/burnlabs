@@ -37,6 +37,7 @@
   @include supportIE11() {
     color: $primary-color !important;
     &:hover {
+      border:0;
       color: $white-color !important;
     }
   }
