@@ -25,7 +25,7 @@
 .cta-btn--hero {
   /* @include supportColorForIE11(); */
   color: $primary-color;
-  border: 2px solid $primary-color;
+  border: 2px solid transparent;
 /* 
   border-image: linear-gradient(
     135deg,
@@ -37,7 +37,7 @@
   @include supportIE11() {
     color: $primary-color !important;
     &:hover {
-      border:0px;
+      border:2px solid transparent;
       color: $white-color !important;
     }
   }
