@@ -59,7 +59,7 @@
 
     & a {
       font-size: 2.4rem;
-      color: $primary-color;
+      /*color: $primary-color;*/
       @include respond(phone) {
         font-size: 2rem;
       }
