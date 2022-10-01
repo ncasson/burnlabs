@@ -33,11 +33,11 @@
     $secondary-color 100%
   ); 
   */
-  border-image-slice: 1;
+  /* border-image-slice: 1; */
   @include supportIE11() {
     color: $primary-color !important;
     &:hover {
-      border:0;
+      border:0px;
       color: $white-color !important;
     }
   }
@@ -55,8 +55,6 @@
       $secondary-color 100%
     );
     
-    border: 0;
-
     @include respond(phone) {
       background-image: none;
     }
