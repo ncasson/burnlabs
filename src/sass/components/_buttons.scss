@@ -36,7 +36,7 @@
   /* border-image-slice: 1; */
   @include supportIE11() {
     color: $primary-color !important;
-    border:0px solid transparent;
+    border: 2px solid #ffffff;
     &:hover {
       color: $white-color !important;
     }
@@ -44,12 +44,12 @@
 
   @include respond(phone) {
     background-image: none;
-    border: 0px solid transparent;
+    border: 2px solid #ffffff;
     -webkit-text-fill-color: $primary-color;
   }
 
   &::after {
-          border:0px solid transparent;
+    border: 2px solid #ffffff;
 
     background-image: linear-gradient(
       135deg,
@@ -63,7 +63,7 @@
   }
 
   &:hover {
-          border:0px solid transparent;
+    border: 2px solid #ffffff;
 
     -webkit-text-fill-color: $white-color;
     text-decoration: none;
