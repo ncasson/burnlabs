@@ -45,11 +45,12 @@
   }
 
   &::after {
-    background-image: linear-gradient(
+    /* background-image: linear-gradient(
       135deg,
       $primary-color 0%,
       $secondary-color 100%
-    );
+    ); */
+    color: $primary-color;
 
     @include respond(phone) {
       background-image: none;
