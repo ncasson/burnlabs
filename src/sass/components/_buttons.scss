@@ -69,7 +69,8 @@
     text-decoration: none;
 
     @include respond(phone) {
-      -webkit-text-fill-color: $primary-color;
+     /* -webkit-text-fill-color: $primary-color; */
+      
     }
 
     &::after {
