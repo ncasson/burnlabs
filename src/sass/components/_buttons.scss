@@ -25,11 +25,12 @@
 .cta-btn--hero {
   @include supportColorForIE11();
   border: 2px solid transparent;
-  border-image: linear-gradient(
+  /* border-image: linear-gradient(
     135deg,
     $primary-color 0%,
     $secondary-color 100%
-  );
+  );*/
+  color: $primary-color;
   border-image-slice: 1;
   @include supportIE11() {
     color: $primary-color !important;
