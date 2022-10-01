@@ -42,11 +42,11 @@
     }
   }
 
-  @include respond(phone) {
+  /*@include respond(phone) {
     background-image: none;
     border: 2px solid #ffffff;
     -webkit-text-fill-color: $primary-color;
-  }
+  }*/
 
   &::after {
     border: 2px solid #ffffff;
@@ -57,9 +57,9 @@
       $secondary-color 100%
     );
     
-    @include respond(phone) {
+    /*@include respond(phone) {
       background-image: none;
-    }
+    }*/
   }
 
   &:hover {
@@ -68,10 +68,10 @@
     -webkit-text-fill-color: $white-color;
     text-decoration: none;
 
-    @include respond(phone) {
-     /* -webkit-text-fill-color: $primary-color; */
+    /*@include respond(phone) {
+     -webkit-text-fill-color: $primary-color; 
       
-    }
+    }*/
 
     &::after {
       width: 100%;
