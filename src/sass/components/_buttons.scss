@@ -26,13 +26,13 @@
   /* @include supportColorForIE11(); */
   color: $primary-color;
   border: 2px solid $primary-color;
- <!-- 
+/* 
   border-image: linear-gradient(
     135deg,
     $primary-color 0%,
     $secondary-color 100%
   ); 
-  -->
+  */
   border-image-slice: 1;
   @include supportIE11() {
     color: $primary-color !important;
