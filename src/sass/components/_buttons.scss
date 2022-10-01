@@ -43,7 +43,7 @@
 
   @include respond(phone) {
     background-image: none;
-    border: 2px solid $primary-color;
+    border: 2px solid transparent;
     -webkit-text-fill-color: $primary-color;
   }
 
