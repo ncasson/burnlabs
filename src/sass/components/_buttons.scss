@@ -36,6 +36,7 @@
   /* border-image-slice: 1; */
   @include supportIE11() {
     color: $primary-color !important;
+    border:2px solid transparent;
     &:hover {
       border:2px solid transparent;
       color: $white-color !important;
@@ -49,6 +50,8 @@
   }
 
   &::after {
+          border:2px solid transparent;
+
     background-image: linear-gradient(
       135deg,
       $primary-color 0%,
@@ -61,6 +64,8 @@
   }
 
   &:hover {
+          border:2px solid transparent;
+
     -webkit-text-fill-color: $white-color;
     text-decoration: none;
 
