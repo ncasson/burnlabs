@@ -1,5 +1,5 @@
 .footer {
-  background-color: #231F20;
+  background-color: #000000;
   color: $white-color;
   padding: 4.8rem 0;
 
@@ -37,7 +37,7 @@
       color: darken($white-color, 50%);
       font-size: 1.3rem;
       transition: all 0.4s;
-      display: inline-block;
+      //display: inline-block;
       background-color: #231F20;
 
       &:hover,
@@ -49,12 +49,12 @@
     }
   }
 
-  & hr {
+  /*& hr {
     margin: 1rem auto;
     border: 0;
     width: 35%;
     border-top: 2px solid grey;
-  }
+  }*/
 }
 
 .social-links {
