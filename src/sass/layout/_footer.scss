@@ -21,6 +21,12 @@
      clear:both;
      margin-bottom: -40px;
       color: #FFFFFF;
+
+    @include respond(tab-port) {
+      text-align: center;
+    }
+
+
     }
     font-size: 4.5rem;
     font-weight: 700;
