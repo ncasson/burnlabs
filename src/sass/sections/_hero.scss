@@ -76,7 +76,7 @@
   }
 }
 
-/*:root {
+:root {
 	--primary: #88D5BF;
 	--secondary: #5D6BF8;
 }
@@ -88,6 +88,7 @@
 
 
 .container1 {
+z-index:2
   align-items: center;
 	display:inline-block;
   position: absolute;
@@ -165,4 +166,4 @@
     border-radius:  60% 40% 30% 70% / 60% 30% 70% 40%;
     background: linear-gradient(45deg, var(--primary) 0%, var(--secondary) 100%);
   } 
-}*/
+}
