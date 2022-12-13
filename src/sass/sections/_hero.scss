@@ -4,7 +4,7 @@
 #hero {
   min-height: 100vh;
   height: 100vh;
- /* display: flex; */
+ display: flex;
 	/* position: inline-block; */
   align-items: center;
   border-bottom: 0px;
@@ -91,7 +91,7 @@
 z-index:2;
   align-items: center;
 	display:inline-block;
-  /*position: absolute;*/
+  position: absolute;
 	left: 55%;
 	top: 25%;
   height: 100vh;
