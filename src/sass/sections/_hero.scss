@@ -25,10 +25,11 @@
   height: 400px;
   transition: all 1s ease-in-out;
   width: 400px;
-  z-index:2;
+  z-index:1;
 }
 
 @keyframes morph {
+	z-index:1;
   0% {
 			border-radius:  60% 40% 30% 70% / 60% 30% 70% 40%;
 			background: linear-gradient(45deg, var(--primary) 0%, var(--secondary) 100%);
@@ -87,6 +88,7 @@
     margin-bottom: 3.2rem;
     text-align: left;
 	  position: inline-block;
+	  z-index:6;
 
     @include respond(tab-land) {
       font-size: 4rem;
