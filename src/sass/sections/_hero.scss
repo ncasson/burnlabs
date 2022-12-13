@@ -95,6 +95,27 @@
 	top: 25%;
   height: 100vh;
   justify-content: center;
+	
+		    @include respond(tab-land) {
+  position: relative;
+  top: 50%;
+  transform: translateX(-50%);
+    }
+    @include respond(tab-port) {
+  position: relative;
+  top: 50%;
+  transform: translateX(-50%);
+    }
+    @include respond(phone) {
+  position: relative;
+  top: 50%;
+  transform: translateX(-50%);
+    }
+    @include respond(phone-xs) {
+  position: relative;
+  top: 50%;
+  transform: translateX(-50%);
+    }
 
 }
 
@@ -106,6 +127,27 @@
   transition: all 1s ease-in-out;
   width: 400px;
 	z-index:1;
+	    @include respond(tab-land) {
+      height: 200px;
+	width: 200px;
+    }
+    @include respond(tab-port) {
+      font-size: 3.6rem;
+      text-align: center;
+	       height: 200px;
+	width: 200px;
+    }
+    @include respond(phone) {
+      font-size: 3.5rem;
+      line-height: 1.5;
+	       height: 200px;
+	width: 200px;
+    }
+    @include respond(phone-xs) {
+      font-size: 2.8rem;
+	       height: 150px;
+	width: 150px;
+    }
 }
 
 @keyframes morph {
