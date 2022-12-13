@@ -5,7 +5,7 @@
   min-height: 100vh;
   height: 100vh;
   display: flex;
-	position: inline-block;
+	/* position: inline-block; */
   align-items: center;
   border-bottom: 0px;
   background: $white-color;
@@ -40,7 +40,7 @@
     font-weight: 700;
     margin-bottom: 3.2rem;
     text-align: left;
-	  position: inline-block;
+	 /* position: inline-block;*/
 	  z-index:3;
 
     @include respond(tab-land) {
@@ -98,22 +98,22 @@
 	
 		    @include respond(tab-land) {
   position: relative;
-  top: 50%;
+  top: 30%;
   transform: translateX(-50%);
     }
     @include respond(tab-port) {
   position: relative;
-  top: 50%;
+  top: 30%;
   transform: translateX(-50%);
     }
     @include respond(phone) {
   position: relative;
-  top: 50%;
+  top: 30%;
   transform: translateX(-50%);
     }
     @include respond(phone-xs) {
   position: relative;
-  top: 50%;
+  top: 30%;
   transform: translateX(-50%);
     }
 
