@@ -91,7 +91,8 @@
   align-items: center;
 	display:inline-block;
   position: absolute;
-	left: 50rem;
+	left: 75%;
+	top: 25%;
   height: 100vh;
   justify-content: center;
 
@@ -109,17 +110,17 @@
 
 @keyframes morph {
   0% {
-			border-radius:  60% 40% 30% 70% / 60% 30% 70% 40%;
-			background: linear-gradient(45deg, var(--primary) 0%, var(--secondary) 100%);
-	} 
-	
-	50% {
-			border-radius:  30% 60% 70% 40% / 50% 60% 30% 60%;
-			background: linear-gradient(45deg, var(--primary) 0%, var(--secondary) 100%);
-	}
+      border-radius:  60% 40% 30% 70% / 60% 30% 70% 40%;
+      background: linear-gradient(45deg, var(--primary) 0%, var(--secondary) 100%);
+  } 
   
-	100% {
-		border-radius:  60% 40% 30% 70% / 60% 20% 70% 40%;
-		background: linear-gradient(45deg, var(--primary) 0%, var(--secondary) 100%);
-	} 
+  50% {
+      border-radius:  30% 60% 70% 40% / 50% 60% 30% 60%;
+      background: linear-gradient(45deg, var(--third) 0%, var(--secondary) 100%);
+  }
+  
+  100% {
+    border-radius:  60% 40% 30% 70% / 60% 30% 70% 40%;
+    background: linear-gradient(45deg, var(--primary) 0%, var(--secondary) 100%);
+  } 
 }
